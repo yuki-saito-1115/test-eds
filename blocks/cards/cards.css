@@ -25,3 +25,12 @@
   aspect-ratio: 4 / 3;
   object-fit: cover;
 }
+
+
+.cards.bg-yellow {
+    background-color: yellow;
+ }
+ .cards.bg-yellow > ul > li {
+    background-color: wheat;
+    box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+ }
